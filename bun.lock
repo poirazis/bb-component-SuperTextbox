@@ -5,18 +5,18 @@
     "": {
       "name": "bb-component-SuperTextbox",
       "dependencies": {
-        "@poirazis/supercomponents-shared": "^1.2.18",
+        "@poirazis/supercomponents-shared": "latest",
       },
       "devDependencies": {
-        "@budibase/backend-core": "^3.38.4",
-        "@sveltejs/vite-plugin-svelte": "^7.1.2",
-        "svelte": "^5.55.7",
-        "tar": "^7.5.15",
-        "terser": "^5.47.1",
-        "typescript": "^6.0.3",
-        "vite": "^8.0.13",
-        "vite-plugin-css-injected-by-js": "^5.0.1",
-        "vite-plugin-singlefile": "^2.3.3",
+        "@budibase/backend-core": "latest",
+        "@sveltejs/vite-plugin-svelte": "latest",
+        "svelte": "latest",
+        "tar": "latest",
+        "terser": "latest",
+        "typescript": "latest",
+        "vite": "latest",
+        "vite-plugin-css-injected-by-js": "latest",
+        "vite-plugin-singlefile": "latest",
       },
       "peerDependencies": {
         "svelte": "^5.0.0",
@@ -200,7 +200,7 @@
 
     "@phosphor-icons/web": ["@phosphor-icons/web@2.1.2", "", {}, "sha512-rPAR9o/bEcp4Cw4DEeZHXf+nlGCMNGkNDRizYHM47NLxz9vvEHp/Tt6FMK1NcWadzw/pFDPnRBGi/ofRya958A=="],
 
-    "@poirazis/supercomponents-shared": ["@poirazis/supercomponents-shared@1.2.18", "", { "dependencies": { "@jsrob/svelte-portal": "^0.2.1", "@phosphor-icons/web": "^2.1.2", "@sveltejs/svelte-virtual-list": "^3.0.1", "date-picker-svelte": "^2.17.0", "imask": "^7.6.1", "shortid": "^2.2.17", "svelte-carousel": "^1.0.25", "svelte-dnd-action": "^0.9.69", "svelte-fsm": "^1.2.0", "zod": "4.4.3" }, "peerDependencies": { "svelte": "^5.0.0" } }, "sha512-TraF7JTvDtgGaXaywQA1EqpdDoAJ6fPo3o+AHkKKvvheAqjLku9bgHXJpy4OT5xsVIO33P4vAt0dpZkJ38Wwyw=="],
+    "@poirazis/supercomponents-shared": ["@poirazis/supercomponents-shared@1.2.19", "", { "dependencies": { "@jsrob/svelte-portal": "^0.2.1", "@phosphor-icons/web": "^2.1.2", "@sveltejs/svelte-virtual-list": "^3.0.1", "date-picker-svelte": "^2.17.0", "imask": "^7.6.1", "shortid": "^2.2.17", "svelte-carousel": "^1.0.25", "svelte-dnd-action": "^0.9.69", "svelte-fsm": "^1.2.0", "zod": "4.4.3" }, "peerDependencies": { "svelte": "^5.0.0" } }, "sha512-ZdRzVNITKB9VnVsHyAiE8MVNAvOvguomc1esXU8FpkmzNtskDXM66TR1y/WH8sgd164yD/wG/1hwe6sKiwko3A=="],
 
     "@protobufjs/aspromise": ["@protobufjs/aspromise@1.1.2", "", {}, "sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ=="],
 
