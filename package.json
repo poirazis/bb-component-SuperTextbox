@@ -13,7 +13,7 @@
     "watch": "vite build --watch"
   },
   "dependencies": {
-    "@poirazis/supercomponents-shared": "^1.2.18"
+    "@poirazis/supercomponents-shared": "latest"
   },
   "devDependencies": {
     "@budibase/backend-core": "^3.38.4",
