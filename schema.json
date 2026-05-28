@@ -1,0 +1,71 @@
+{
+  "type": "component",
+  "metadata": {
+    "svelteMajor": 5
+  },
+  "schema": {
+    "name": "bb-component-SuperTextbox",
+    "friendlyName": "Super Textbox",
+    "description": "A styled copyable text display powered by the shared Textbox component",
+    "icon": "Text",
+    "hasChildren": false,
+    "showEmptyState": false,
+    "styles": ["padding", "size", "border", "background"],
+    "settings": [
+      {
+        "type": "text",
+        "key": "value",
+        "label": "Value",
+        "defaultValue": "Copy me"
+      },
+      {
+        "type": "boolean",
+        "key": "disabled",
+        "label": "Disabled",
+        "defaultValue": false
+      },
+      {
+        "type": "boolean",
+        "key": "wrap",
+        "label": "Wrap",
+        "defaultValue": false
+      },
+      {
+        "type": "boolean",
+        "key": "monospace",
+        "label": "Monospace",
+        "defaultValue": true
+      },
+      {
+        "section": true,
+        "name": "Copy Settings",
+        "collapsed": true,
+        "settings": [
+          {
+            "type": "text",
+            "key": "copyLabel",
+            "label": "Copy Tooltip",
+            "defaultValue": "Copy to clipboard"
+          },
+          {
+            "type": "text",
+            "key": "copiedLabel",
+            "label": "Copied Message",
+            "defaultValue": "Copied !"
+          }
+        ]
+      },
+      {
+        "type": "event",
+        "key": "onCopy",
+        "label": "On Copy",
+        "context": [
+          {
+            "key": "value",
+            "label": "Value"
+          }
+        ]
+      }
+    ]
+  }
+}
