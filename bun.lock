@@ -5,18 +5,18 @@
     "": {
       "name": "bb-component-SuperTextbox",
       "dependencies": {
-        "@poirazis/supercomponents-shared": "latest",
+        "@poirazis/supercomponents-shared": "^1.2.19",
       },
       "devDependencies": {
-        "@budibase/backend-core": "latest",
-        "@sveltejs/vite-plugin-svelte": "latest",
-        "svelte": "latest",
-        "tar": "latest",
-        "terser": "latest",
-        "typescript": "latest",
-        "vite": "latest",
-        "vite-plugin-css-injected-by-js": "latest",
-        "vite-plugin-singlefile": "latest",
+        "@budibase/backend-core": "^3.38.5",
+        "@sveltejs/vite-plugin-svelte": "^7.1.2",
+        "svelte": "^5.55.10",
+        "tar": "^7.5.15",
+        "terser": "^5.48.0",
+        "typescript": "^6.0.3",
+        "vite": "^8.0.14",
+        "vite-plugin-css-injected-by-js": "^5.0.1",
+        "vite-plugin-singlefile": "^2.3.3",
       },
       "peerDependencies": {
         "svelte": "^5.0.0",

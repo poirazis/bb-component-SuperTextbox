@@ -17,7 +17,7 @@ import { validate } from "@budibase/backend-core/plugins";
 
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 const pkg = JSON.parse(
-  readFileSync(new URL("./package.json", import.meta.url), "utf8")
+  readFileSync(new URL("./package.json", import.meta.url), "utf8"),
 );
 
 const clean = () => ({
@@ -81,8 +81,8 @@ const copyAndHash = () => ({
           version: pkg.version,
         },
         null,
-        2
-      )
+        2,
+      ),
     );
   },
 });
@@ -118,21 +118,13 @@ export default defineConfig({
       treeshake: {
         moduleSideEffects: false,
       },
-      onwarn(warning, warn) {
-        if (
-          warning.message?.includes("externalized for browser compatibility") &&
-          warning.message?.includes("os")
-        ) {
-          return;
-        }
-        warn(warning);
-      },
       output: {
         globals: (id) => {
           if (id === "svelte/store") return "svelteStore";
           if (id === "svelte/transition") return "svelteTransition";
           if (id === "svelte/animate") return "svelteAnimate";
           if (id === "svelte/motion") return "svelteMotion";
+          if (id === "svelte/easing") return "svelteEasing";
           if (id.includes("/internal")) return "svelteInternal";
           return "svelte";
         },
