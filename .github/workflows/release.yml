@@ -14,7 +14,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v6
-
+        with:
+          path: ${{ github.workspace }}
       - uses: oven-sh/setup-bun@v2
 
       - name: Make the production plugin bundle
