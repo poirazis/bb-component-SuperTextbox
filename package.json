@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "bb-component-SuperTextbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A copyable text display component powered by the shared Textbox",
   "author": "Michael Poirazi",
   "packageManager": "bun@1.0.0",
@@ -13,7 +13,7 @@
     "watch": "vite build --watch"
   },
   "dependencies": {
-    "@poirazis/supercomponents-shared": "^1.2.18"
+    "@poirazis/supercomponents-shared": "latest"
   },
   "devDependencies": {
     "@budibase/backend-core": "^3.38.4",
