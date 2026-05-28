@@ -28,7 +28,7 @@
     {copiedLabel}
     {wrap}
     {monospace}
-    oncopy={handleCopy}
+    on:copy={handleCopy}
   />
 </div>
 
